@@ -13,6 +13,9 @@
 		17E3E452224E614600B86CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E3E451224E614600B86CB2 /* Assets.xcassets */; };
 		17E3E455224E614600B86CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E3E453224E614600B86CB2 /* LaunchScreen.storyboard */; };
 		17E3E45D224E620A00B86CB2 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3E45C224E620A00B86CB2 /* CalculateViewController.swift */; };
+		17EC1ADA2258947400364CA0 /* happy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17EC1AD92258947400364CA0 /* happy.wav */; };
+		17EC1ADC2258949C00364CA0 /* uh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17EC1ADB2258949C00364CA0 /* uh.wav */; };
+		17EC1ADE2258B92200364CA0 /* medium.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17EC1ADD2258B92200364CA0 /* medium.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		17E3E454224E614600B86CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17E3E456224E614600B86CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17E3E45C224E620A00B86CB2 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		17EC1AD92258947400364CA0 /* happy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = happy.wav; sourceTree = "<group>"; };
+		17EC1ADB2258949C00364CA0 /* uh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = uh.wav; sourceTree = "<group>"; };
+		17EC1ADD2258B92200364CA0 /* medium.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = medium.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				17E3E451224E614600B86CB2 /* Assets.xcassets */,
 				17E3E453224E614600B86CB2 /* LaunchScreen.storyboard */,
 				17E3E456224E614600B86CB2 /* Info.plist */,
+				17EC1AD92258947400364CA0 /* happy.wav */,
+				17EC1ADB2258949C00364CA0 /* uh.wav */,
+				17EC1ADD2258B92200364CA0 /* medium.wav */,
 			);
 			path = LoveCalculator;
 			sourceTree = "<group>";
@@ -125,9 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17EC1ADC2258949C00364CA0 /* uh.wav in Resources */,
+				17EC1ADE2258B92200364CA0 /* medium.wav in Resources */,
 				17E3E455224E614600B86CB2 /* LaunchScreen.storyboard in Resources */,
 				17E3E452224E614600B86CB2 /* Assets.xcassets in Resources */,
 				17E3E450224E614500B86CB2 /* Main.storyboard in Resources */,
+				17EC1ADA2258947400364CA0 /* happy.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
